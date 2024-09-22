@@ -1,0 +1,12 @@
+=font-face($family, $file, $weight: normal, $style: normal)
+  @font-face
+    font-family: $family
+    src: url('../fonts/#{$file}.woff2') format('woff2')
+    font-weight: $weight
+    font-style: $style
+    font-display: swap
+
++font-face('Rubik', 'Rubik-Regular', 400, normal)
++font-face('Rubik', 'Rubik-Light', 300, normal)
++font-face('Rubik', 'Rubik-Bold', 700, normal)
++font-face('Rubik', 'Rubik-Italic', 400, italic)

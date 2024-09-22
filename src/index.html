@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой проект</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <header>
+    <h1>Header</h1>
+  </header>
+  
+
+
+  <h1>Gulp Starter Configuration</h1>
+
+  <!-- icons use -->
+  <div>
+    <svg class="icon icon--dial">
+        <use xlink:href="img/sprite.svg#dial"></use>
+      </svg>
+  </div>
+
+  <!-- imgs use -->
+  <picture class="picture-class">
+    <source srcset="
+      img/fall.webp 640w,
+      img/fall@2x.webp 1280w,
+      img/fall@3x.webp 1920w" 
+      type="image/webp">
+      
+    <source srcset="
+      img/fall.png 640w,
+      img/fall@2x.png 1280w,
+      img/fall@3x.png 1920w">
+      
+    <img src="img/fall.png" alt="Осень" loading="lazy" sizes="(max-width: 600px) 100vw, 50vw" class="img-class">
+  </picture>
+  
+
+  <!-- preload  <link rel="preload" href="img/winter.webp" as="image"> -->
+
+  <picture class="picture-class">
+    <source srcset="
+      img/winter.webp 640w,
+      img/winter@2x.webp 1280w,
+      img/winter@3x.webp 1920w" 
+      type="image/webp">
+      
+    <source srcset="
+      img/winter.jpg 640w,
+      img/winter@2x.jpg 1280w,
+      img/winter@3x.jpg 1920w">
+      
+    <img src="img/winter.jpg" alt="Зима" loading="lazy" sizes="(max-width: 600px) 100vw, 50vw" class="img-class">
+  </picture>
+
+  
+  <footer>
+    <h1>Footer</h1>
+</footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+</html>
